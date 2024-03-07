@@ -536,4 +536,5 @@ async def help(ctx):
         "왠만한 에러는 다 잡아두긴 했는데 그래도 빵꾸 있을 수 있으니 찾으면 칭?찬(혹은 도?끼)은 해줌\n"
         "이번엔 과연 누가 천하의 멍멍이가 될지 기대가 됩니다")
 
-client.run("MTA2OTY2NTE1NTc0NDU0Njg1Ng.G4xb5b.laFf8oI2CRTJZbVrFnSGNq-8O3XrdbgXyMa2Fg")
+with open('token.txt', 'r') as f:
+    token = f.read()
